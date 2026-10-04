@@ -35,7 +35,7 @@ The system depends on:
 * Python runtime
 * `cProfile`
 * `time.perf_counter()`
-* Matplotlib
+* draw.io
 * SLE-2 Word report
 
 There is no database or network service.
@@ -73,7 +73,7 @@ DFS uses a stack, while BFS uses a deque as a queue.
 
 ### Experiment Runner
 
-The `run_experiments.py` script:
+The `agent.py` script:
 
 * Generates mazes.
 * Runs DFS and BFS.
@@ -146,7 +146,7 @@ generate_maze()
 neighbors()
 dfs_solve()
 bfs_solve()
-run_experiments.py
+agent.py
 ```
 
 ### `generate_maze()`
