@@ -12,7 +12,7 @@ I identified:
 * The Student as the system operator.
 * The Maze Solving & Profiling System as the main system.
 * The Python runtime and profiling tools.
-* Matplotlib for charts.
+* draw.io for charts.
 * The SLE-2 report as the place where results are used.
 
 I reviewed the system boundary and its external dependencies.
@@ -66,7 +66,7 @@ generate_maze()
 neighbors()
 dfs_solve()
 bfs_solve()
-run_experiments.py
+agent.py
 ```
 
 I reviewed whether the functions shown in the C4 model correctly represented the actual project.
@@ -91,18 +91,10 @@ I reviewed and documented the important architectural decisions:
 
 **Claude (Anthropic)**
 
-AI was used as a supporting tool for the SLE-3 C4 architectural design.
-
 AI helped with:
 
-* Drafting the three C4 diagrams.
-* Generating the Matplotlib script used for the diagrams.
 * Structuring the SLE-3 document.
 * Polishing the wording of the explanations.
-
-The diagrams were generated using a Matplotlib script and were not copied from the internet.
-
+  
 ---
-AI was used as a supporting tool for drafting the C4 diagrams, generating the Matplotlib diagram script, structuring the document, and polishing the explanations.
-
 The final C4 architecture was reviewed by me to ensure that it represented my actual system.
